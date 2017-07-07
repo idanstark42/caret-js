@@ -1,7 +1,13 @@
-$.fn.extend({
-
-	caret: function(func) {
-
+(function($) {
+	if(typeof($) === 'undefined') {
+		return;
 	}
 
-});
+	$.fn.extend({
+
+		caret: function(func) {
+
+		}
+
+	});
+})(jQuery);
